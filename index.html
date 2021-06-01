@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendário</title>
+	
+	<link rel="stylesheet" href="style.css">
+
+	<script src="main.js" defer></script>
+</head>
+
+<body>
+	<div id="calendario-container">
+		<div class="calendario">
+			<!-- HEADER -->
+			<header>
+				<div class="box-left">
+					<button type="button" class="inp-date" onclick="goToToday();">&#8635;</button>
+					
+					<div class="dropdown-box anos">
+						<button type="button" class="trigger btn-open-year btn-primary"></button>
+
+						<ul class="drop select-year">
+						</ul>
+					</div>
+				</div>
+			
+				<div class="header-content">
+					<button type="button" class="btn-slide-month btn-primary" onclick="slideMes(-1)">&lt;</button>
+					
+					<div class="dropdown-box meses">
+						<button type="button" class="trigger btn-open-month btn-primary"></button>
+						
+						<ul class="drop select-month"></ul>
+					</div>
+					
+					<button type="button" class="btn-slide-month btn-primary" onclick="slideMes(+1)">&gt;</button>
+				</div>
+			</header>
+			
+			<!-- CONTENT -->
+			<div class="content">
+				<div class="desc"></div>
+				
+				<div class="dias"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
