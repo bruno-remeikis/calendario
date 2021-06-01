@@ -1,4 +1,9 @@
-# calendario
-<b>EN:</b> Simple calendar using pure HTML, CSS and JavaScript to be used in a future project using Node.js and React.js.
-<br>
-<b>PT:</b> Calendário simples utilizando HTML, CSS e JavaScript puros para ser utilizado em um projeto futuro usando Node.js e React.js.
+# Calendar
+A simple calendar using pure HTML, CSS and JavaScript to be used in a future project using Node.js and React.js.
+
+## Getting started
+1. Clone this repo using `git clone https://github.com/bruno-remeikis/calendario.git`
+2. Open the `index.html` in some browser
+
+## Demonstration
+![Main image](img.png)
